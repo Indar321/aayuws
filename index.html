@@ -132,10 +132,23 @@
 
   /* ===== AAYU BRAND LOGO IMAGE ===== */
   .brand-logo-img{
-    width:150px;
-    height:auto;
+    width:auto;
+    height:32px;
+    max-width:100%;
     display:block;
     object-fit:contain;
+  }
+  /* Header logo is locked to the original 32px height so the nav pill never grows. */
+  .logo{
+    height:32px;
+    display:flex;
+    align-items:center;
+    flex-shrink:0;
+  }
+  .logo .brand-logo-img{
+    width:auto;
+    height:32px;
+    max-width:120px;
   }
   .footer-logo .brand-logo-img{
     width:220px;
