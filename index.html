@@ -133,22 +133,22 @@
   /* ===== AAYU BRAND LOGO IMAGE ===== */
   .brand-logo-img{
     width:auto;
-    height:32px;
+    height:38px;
     max-width:100%;
     display:block;
     object-fit:contain;
   }
-  /* Header logo is locked to the original 32px height so the nav pill never grows. */
+  /* Medium header logo — enlarged visually while the nav pill stays the same height. */
   .logo{
-    height:32px;
+    height:42px;
     display:flex;
     align-items:center;
     flex-shrink:0;
   }
   .logo .brand-logo-img{
     width:auto;
-    height:32px;
-    max-width:120px;
+    height:38px;
+    max-width:150px;
   }
   .footer-logo .brand-logo-img{
     width:220px;
@@ -165,12 +165,13 @@
   }
   .nav-inner{
     max-width:var(--maxw);margin:0 auto;width:100%;
+    height:52px;
     display:flex;align-items:center;justify-content:space-between;
     background:var(--glass);
     backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
     border:1px solid var(--glass-border);
     border-radius:100px;
-    padding:10px 10px 10px 22px;
+    padding:0 10px 0 22px;
     box-shadow:0 10px 34px var(--shadow-soft);
     transition:all 0.4s cubic-bezier(.4,0,.2,1);
   }
@@ -181,6 +182,7 @@
   .logo{
     font-family:var(--font-display);font-weight:700;font-size:18px;letter-spacing:0.01em;
     display:flex;align-items:center;gap:9px;
+    height:42px;
   }
   .logo-mark{
     width:32px;height:32px;border-radius:10px;
